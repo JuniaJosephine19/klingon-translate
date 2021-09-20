@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+
+:root{
+    --yellow: #000d58;
+    --brown: rgb(228, 228, 228);
+}
+
+body{
+    text-align: center;
+    font-family: 'Alata', sans-serif;
+    color: var(--brown);
+}
+
+.header{
+    background-color: var(--yellow);
+    padding: 0.5rem 1rem;
+    margin: auto 10% auto 10%;
+}
+
+#btn-trans{
+    color: var(--brown);
+    background-color: var(--yellow);
+    padding: 1rem 1rem;
+    font-size: large;
+    border-color: var(--yellow);
+    border-radius: 0.3rem;
+}
+
+.div{
+    padding: 1rem;
+}
+
+#in-txt-area, #out-txt-area{
+    display: block;
+    padding: 1rem;
+    width: 450px;
+    height: 90px;
+    margin: 0.5rem auto 1rem auto;
+    font-size: large;
+}
