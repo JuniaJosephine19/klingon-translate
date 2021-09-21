@@ -1,5 +1,4 @@
-# klingon-translate
-mark Seven assignment of Tanay Pratap's NeoG camp
+# mark Seven - Klingon translator web app
 
 Are you a StarTrek or Big Bang Theory Fan?
 Do you want to learn Klingon!
