@@ -1,40 +1,44 @@
-@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
 
-:root{
-    --yellow: #000d58;
-    --brown: rgb(228, 228, 228);
+:root {
+    --primary-color: #7C3AED;
+    --white: white;
 }
 
-body{
+body {
     text-align: center;
-    font-family: 'Alata', sans-serif;
-    color: var(--brown);
+    font-family: 'Sriracha', cursive;
+    color: var(--white);
 }
 
-.header{
-    background-color: var(--yellow);
+.header {
+    background-color: var(--primary-color);
     padding: 0.5rem 1rem;
     margin: auto 10% auto 10%;
 }
 
-#btn-trans{
-    color: var(--brown);
-    background-color: var(--yellow);
+#btn-trans {
+    color: var(--white);
+    background-color: var(--primary-color);
     padding: 1rem 1rem;
+    font-family: 'Sriracha', cursive;
     font-size: large;
-    border-color: var(--yellow);
+    border-color: var(--primary-color);
     border-radius: 0.3rem;
 }
 
-.div{
+.div {
     padding: 1rem;
+    color: black;
 }
 
-#in-txt-area, #out-txt-area{
+#in-txt-area,
+#out-txt-area {
     display: block;
     padding: 1rem;
     width: 450px;
     height: 90px;
     margin: 0.5rem auto 1rem auto;
-    font-size: large;
+    font-family: inherit;
+    font-size: medium;
 }
