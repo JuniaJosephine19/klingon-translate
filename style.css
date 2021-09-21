@@ -1,24 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
 
 :root {
-    --primary-color: #7C3AED;
-    --white: white;
+    --primary-color: #38BDF8;
+    --secondary-color: #0C4A6E;
 }
 
 body {
     text-align: center;
     font-family: 'Sriracha', cursive;
-    color: var(--white);
+    color: var(--secondary-color);
 }
 
 .header {
     background-color: var(--primary-color);
-    padding: 0.5rem 1rem;
+    padding: 0.2rem 0rem;
     margin: auto 10% auto 10%;
 }
 
 #btn-trans {
-    color: var(--white);
+    color: var(--secondary-color);
     background-color: var(--primary-color);
     padding: 1rem 1rem;
     font-family: 'Sriracha', cursive;
@@ -29,7 +29,6 @@ body {
 
 .div {
     padding: 1rem;
-    color: black;
 }
 
 #in-txt-area,
